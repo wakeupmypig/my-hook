@@ -5,13 +5,14 @@
   "main": "hook.js",
   "scripts": {
     "start": "pm2 start ./hook.js --name hook --watch",
-    "stop":"pm2 stop hook"
+    "stop": "pm2 stop hook"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
     "koa-router": "^8.0.6"
   }
 }
