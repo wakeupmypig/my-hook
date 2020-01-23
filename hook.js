@@ -1,7 +1,6 @@
 const Koa = require('koa');
 const Router = require('koa-router');
 const app = new Koa();
-app.use(cors());
 const router = new Router();
 router.post('/webhook',function (ctx) {
     console.log('post hook')
